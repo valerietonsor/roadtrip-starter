@@ -36,12 +36,15 @@
 
 iframe { 
     padding: 50px 20px; 
+    display: inline-block;
 }
 
+
 #home-form { 
-    float: right; 
-    padding: 50px 215px 0px 0px; 
+    display: inline-block;
     font-size: 20px;
+    padding: 20px; 
+
 }
 
 #register-form { 
@@ -67,6 +70,10 @@ iframe {
     padding: 15px 50px 15px 50px; 
     border: solid 2px black;
     border-radius: 3px;
+}
+
+footer { 
+    text-align: center;
 }
 
 
